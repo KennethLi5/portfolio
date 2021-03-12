@@ -1,3 +1,3 @@
 # My portfolio
 
-My personal website - [kennethli.dev](kennethli.dev)
+My personal website - [kennethli.dev](https://kennethli.dev)
