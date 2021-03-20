@@ -12,14 +12,14 @@ function Projects() {
                         <ProjectItem 
                         src="images/img-2.jpg"
                         text="Project 1"
-                        label='Adventure'
-                        path='services'
+                        label='Polly'
+                        path='polly'
                         />
                         <ProjectItem 
                         src="images/img-1.jpg"
                         text="Project 2"
                         label='Adventure'
-                        path='signup'
+                        path='filler'
                         />                        
                     </ul>
                 </div>

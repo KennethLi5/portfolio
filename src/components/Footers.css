@@ -71,5 +71,10 @@
         padding: 4px;
     }
 
+    .social-media-wrap {  
+        max-width: 500px;      
+        width: 70%;
+    }
+
 }
 
