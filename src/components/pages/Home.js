@@ -11,9 +11,9 @@ function Home() {
             <Element id='Home' name='Home'>
                 <HeroSection/>
             </Element>
-            {/* <Element id='Projects' name='Projects'>
+            <Element id='Projects' name='Projects'>
                 <Projects/>
-            </Element> */}
+            </Element>
             <Element id='Footers' name='Footers'>
                 <Footers/>
             </Element>

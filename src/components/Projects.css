@@ -12,7 +12,7 @@
     display: flex;
     flex-flow: column;
     align-items: center;
-    max-width: 1120px;
+    max-width: 960px;
     width: 90%;
     margin: 0 auto;
   }
@@ -104,20 +104,14 @@
     line-height: 24px;
   }
   
-  @media only screen and (min-width: 1200px) {
+  @media only screen and (min-width: 960) {
     .content__blog__container {
       width: 84%;
     }
-  }
-  
-  @media only screen and (min-width: 1024px) {
-    .projects__items {
-      display: flex;
-    }
-  }
-  
-  @media only screen and (max-width: 1024px) {
     .projects__item {
       margin-bottom: 2rem;
+    }
+    .projects__items {
+      display: flex;
     }
   }
