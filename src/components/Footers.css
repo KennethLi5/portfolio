@@ -69,5 +69,9 @@
         border-radius: 8px;
         padding: 4px;
     }
+
+    .social-media-wrap {    
+        width: 80%;
+    }
 }
 
