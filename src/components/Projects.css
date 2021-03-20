@@ -1,13 +1,14 @@
-.cards {
+.projects {
     padding: 4rem;
     background: #fff;
   }
   
   h1 {
     text-align: center;
+    font-size: 40px;
   }
   
-  .cards__container {
+  .projects__container {
     display: flex;
     flex-flow: column;
     align-items: center;
@@ -16,23 +17,23 @@
     margin: 0 auto;
   }
   
-  .cards__wrapper {
+  .projects__wrapper {
     position: relative;
     margin: 150px 0 200px;
   }
   
-  .cards__items {
+  .projects__items {
     margin-bottom: 100px;
   }
   
-  .cards__item {
+  .projects__item {
     display: flex;
     flex: 1;
     margin: 0 1rem;
     border-radius: 10px;
   }
   
-  .cards__item__link {
+  .projects__item__link {
     display: flex;
     flex-flow: column;
     width: 100%;
@@ -44,7 +45,7 @@
     text-decoration: none;
   }
   
-  .cards__item__pic-wrap {
+  .projects__item__pic-wrap {
     position: relative;
     width: 400px;
     height: 200px;
@@ -57,7 +58,7 @@
     animation-duration: 2s;
   }
   
-  .cards__item__pic-wrap::after {
+  .projects__item__pic-wrap::after {
     content: attr(data-category);
     position: absolute;
     bottom: 0;
@@ -74,7 +75,7 @@
     box-sizing: border-box;
   }
   
-  .cards__item__img {
+  .projects__item__img {
     position: absolute;
     top: 0;
     right: 0;
@@ -89,15 +90,15 @@
     transition: all 0.2s linear;
   }
   
-  .cards__item__img:hover {
+  .projects__item__img:hover {
     transform: scale(1.1);
   }
   
-  .cards__item__info {
+  .projects__item__info {
     padding: 20px 30px 30px;
   }
   
-  .cards__item__text {
+  .projects__item__text {
     color: #252e48;
     font-size: 18px;
     line-height: 24px;
@@ -110,13 +111,13 @@
   }
   
   @media only screen and (min-width: 1024px) {
-    .cards__items {
+    .projects__items {
       display: flex;
     }
   }
   
   @media only screen and (max-width: 1024px) {
-    .cards__item {
+    .projects__item {
       margin-bottom: 2rem;
     }
   }

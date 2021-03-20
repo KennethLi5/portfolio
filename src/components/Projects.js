@@ -1,21 +1,21 @@
 import React from 'react'
-import CardItem from './CardItem'
-import './Cards.css'
+import ProjectItem from './ProjectItem'
+import './Projects.css'
 
-function Cards() {
+function Projects() {
     return (
-        <div className='cards'>
+        <div className='projects'>
             <h1>Projects</h1>
-            <div className="cards__container">
-                <div className="cards__wrapper">
-                    <ul className="cards__items">
-                        <CardItem 
+            <div className="projects__container">
+                <div className="projects__wrapper">
+                    <ul className="projects__items">
+                        <ProjectItem 
                         src="images/img-2.jpg"
                         text="Project 1"
                         label='Adventure'
                         path='services'
                         />
-                        <CardItem 
+                        <ProjectItem 
                         src="images/img-1.jpg"
                         text="Project 2"
                         label='Adventure'
@@ -28,4 +28,4 @@ function Cards() {
     )
 }
 
-export default Cards
+export default Projects
