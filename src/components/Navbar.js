@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import { Link } from 'react-router-dom'
-import { Button } from './button'
+
 import './Navbar.css'
 import { animateScroll as scroll} from "react-scroll"
 import { Link as LinkS } from "react-scroll"
@@ -8,7 +7,7 @@ import './pages/Home.js'
 
 
 
-function Navbar() {
+function Navbar() { 
     
     const [click, setClick] = useState(false)
     const [button, setButton] = useState(true)
@@ -41,6 +40,7 @@ function Navbar() {
                 <div className='navbar-container'>
                     <div className='menu-icon' onClick={handleClick} >
                         <i className={click ? 'fas fa-times' : 'fas fa-bars'} />                                                
+
                     </div>
 
                     <ul className={click ? 'nav-menu active' : 'nav-menu'} >

@@ -10,17 +10,23 @@ function Projects() {
                 <div className="projects__wrapper">
                     <ul className="projects__items">
                         <ProjectItem 
-                        src="images/img-2.jpg"
-                        text="Project 1"
-                        label='Polly'
+                        class = 'github'
+                        src="images/img-1.jpg"
+                        text="VRSub"
+                        path='vrsub'
+                        />         
+                        
+                        <ProjectItem 
+                        src="images/discord-logo.jpg"
+                        text="Interactive Discord Music Bot"                        
                         path='polly'
-                        />
+                        />                        
                         <ProjectItem 
                         src="images/img-1.jpg"
-                        text="Project 2"
-                        label='Adventure'
+                        text="Project 3"
+                        // label='Adventure'
                         path='filler'
-                        />                        
+                        />                                            
                     </ul>
                 </div>
             </div>

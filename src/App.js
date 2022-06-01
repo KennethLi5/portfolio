@@ -11,7 +11,8 @@ function App() {
       <Router>
         <Navbar />
         <Switch>
-          <Route path='' exact component= {Home}/>
+          <Route path='/' exact component= {Home}/>
+          <Route path='/VRSub' component={() => {window.location.replace('https://www.google.com/'); return null;}}/>
           <Route path='/Polly' component={Polly}/>
         </Switch>
       </Router>
