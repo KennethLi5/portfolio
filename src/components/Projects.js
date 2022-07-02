@@ -9,23 +9,23 @@ function Projects() {
             <div className="projects__container">
                 <div className="projects__wrapper">
                     <ul className="projects__items">
+
                         <ProjectItem 
-                        class = 'github'
                         src="images/img-1.jpg"
                         text="VRSub"
-                        path='vrsub'
+                        path='VRSub'
                         />         
                         
                         <ProjectItem 
                         src="images/discord-logo.jpg"
                         text="Interactive Discord Music Bot"                        
-                        path='polly'
+                        path='DiscordBot'
                         />                        
                         <ProjectItem 
                         src="images/img-1.jpg"
                         text="Project 3"
                         // label='Adventure'
-                        path='filler'
+                        path='/'
                         />                                            
                     </ul>
                 </div>

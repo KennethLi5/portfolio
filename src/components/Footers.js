@@ -19,7 +19,7 @@ function Footers() {
                         </a>                          
                         <a className="social-icon-link" href='https://www.linkedin.com/in/kenneth-li-472666171/' rel='noreferrer'  target='_blank' aria-label='linkedin'>
                             <i className="fab fa-linkedin">
-                                <span className="caption">Linkedin</span>
+                                <span className="caption">LinkedIn</span>
                             </i>
                         </a>          
                         <a className="social-icon-link" href='https://github.com/KennethLi5' rel='noreferrer'  target='_blank' aria-label='github'>

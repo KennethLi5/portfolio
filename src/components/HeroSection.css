@@ -6,20 +6,21 @@
     justify-content: center;
     align-items: center;
     object-fit: contain;
+    
 }
 
 .hero-container > h1 { /*header*/
     color: rgb(0, 162, 255);
     font-size: 100px;
     margin-top: -100px;   
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'AndaleMono', 'AndaleMono', monospace; 
 }
 
 .hero-container > p { /*paragraph*/
     margin-top: 8px;
     color: black;
     font-size: 24px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'AndaleMono', 'AndaleMono', monospace; 
 }
 
 .hero-btns { 

@@ -2,13 +2,15 @@
     padding: 4rem;
     background: #BDCEDF;
     color:black;
+    
   }
   
   h1 {
     text-align: center;
     font-size: 40px;
+    font-family: 'AndaleMono', 'AndaleMono', monospace; 
   }
-  
+
   .projects__container {
     display: flex;
     flex-flow: column;
@@ -26,6 +28,7 @@
   .projects__items {
     margin-bottom: 100px;
     text-align: center;
+    
   }
   
   .projects__item {
@@ -33,13 +36,13 @@
     flex: 1;
     margin: 0 1rem;
     border-radius: 10px;
+    box-shadow: 0 50px 100px rgba(50, 50, 100, 0.25);
   }
   
   .projects__item__link {
     display: flex;
     flex-flow: column;
-    width: 100%;
-    box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
+    width: 100%;    
     -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
     filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
     border-radius: 10px;
@@ -101,10 +104,13 @@
   }
   
   .projects__item__text {
-    color: #252e48;
-    font-size: 18px;
+    color: black;
+    font-size: 24px;
+    font-family: 'AndaleMono', 'AndaleMono', monospace; 
     line-height: 24px;
+    
   }
+
   
   @media only screen and (min-width: 960) {
     .content__blog__container {

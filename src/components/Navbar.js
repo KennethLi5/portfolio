@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react'
 
 import './Navbar.css'
-import { animateScroll as scroll} from "react-scroll"
 import { Link as LinkS } from "react-scroll"
 import './pages/Home.js'
+import { useLocation } from 'react-router-dom'
 
 
 
@@ -30,8 +30,12 @@ function Navbar() {
     
     window.addEventListener('resize', showButton)
 
-    function scrollToTop() {
-        scroll.scrollToTop();
+    function ReturnToHome() {
+        const location = useLocation();
+        
+        if (location.pathname != "/") {
+            
+        }
     }
 
     return (
@@ -55,7 +59,7 @@ function Navbar() {
                                 className='nav-links' 
                                 onClick={closeMobileMenu}
                                 >
-                                Home
+                                HOME
                             </LinkS>
                         </li>
                         <li className='nav-item'>
@@ -64,12 +68,12 @@ function Navbar() {
                                 to="Projects"
                                 spy={true}
                                 smooth={true}
-                                offset={-70}
+                                offset={-10}
                                 duration={750}
                                 className='nav-links' 
                                 onClick={closeMobileMenu}
                                 >
-                                Projects
+                                PROJECTS
                             </LinkS>
                         </li>
                         <li className='nav-item'>
@@ -78,11 +82,11 @@ function Navbar() {
                                 to="Footers"
                                 spy={true}
                                 smooth={true}
-                                offset={-70}
+                                offset={150}
                                 duration={750}
                                 className='nav-links' 
                                 onClick={closeMobileMenu}>
-                                About me
+                                CONTACT
                             </LinkS>
                         </li>
                     </ul>

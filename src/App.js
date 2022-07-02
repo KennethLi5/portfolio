@@ -12,8 +12,8 @@ function App() {
         <Navbar />
         <Switch>
           <Route path='/' exact component= {Home}/>
-          <Route path='/VRSub' component={() => {window.location.replace('https://www.google.com/'); return null;}}/>
-          <Route path='/Polly' component={Polly}/>
+          <Route path='/VRSub' component={() => {window.location.replace('https://github.com/KennethLi5/VRSub'); return null;}}/>
+          <Route path='/DiscordBot' component={() => {window.location.replace('https://github.com/KennethLi5/discord-tts-bot'); return null;}}/> 
         </Switch>
       </Router>
     </>

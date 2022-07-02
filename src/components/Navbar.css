@@ -53,6 +53,7 @@
   
   .nav-links {
     color: black;
+    font-family: 'AndaleMono', 'AndaleMono', monospace; 
     display: inline-block;
     align-items: center;
     text-decoration: none;
