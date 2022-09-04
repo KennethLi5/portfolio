@@ -9,12 +9,11 @@ function Projects() {
             <div className="projects__container">
                 <div className="projects__wrapper">
                     <ul className="projects__items">
-
                         <ProjectItem 
                         src="images/img-1.jpg"
                         text="VRSub"
                         path='VRSub'
-                        />         
+                        />    
                         
                         <ProjectItem 
                         src="images/discord-logo.jpg"
