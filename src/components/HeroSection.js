@@ -7,7 +7,7 @@ function HeroSection() {
     return (
         <div className='hero-container'>
             <h1>Kenneth Li</h1>
-            <p>filler</p>
+            {/* <p>filler</p> */}
         </div>
     )
 }

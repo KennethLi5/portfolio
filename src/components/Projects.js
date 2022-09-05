@@ -12,6 +12,7 @@ function Projects() {
                         <ProjectItem 
                         src="images/img-1.jpg"
                         text="VRSub"
+                        label="C#, Unity3D, SteamVR"
                         path='VRSub'
                         />    
                         
@@ -19,12 +20,13 @@ function Projects() {
                         src="images/discord-logo.jpg"
                         text="Interactive Discord Music Bot"                        
                         path='DiscordBot'
+                        label='JavaScript'
                         />                        
                         <ProjectItem 
-                        src="images/img-1.jpg"
-                        text="Project 3"
-                        // label='Adventure'
-                        path='/'
+                        src="images/polly.jpg"
+                        text="Amazon Polly"
+                        label='JavaScript, React'
+                        path='/Polly'
                         />                                            
                     </ul>
                 </div>
