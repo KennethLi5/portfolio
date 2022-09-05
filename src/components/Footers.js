@@ -12,17 +12,17 @@ function Footers() {
 
             <section className="social-media">
                 <div className="social-media-wrap">
-                        <a className="social-icon-link" href='mailto:kennethli015@gmail.com' rel='noreferrer'  target='_blank' aria-label='email'>
+                        <a className="social-icon-link" href='mailto:kennethli015@gmail.com'  target='_blank' rel='noopener noreferrer' aria-label='email'>
                             <i className="fa fa-envelope">
                                 <span className="caption">Email</span>
                             </i>
                         </a>                          
-                        <a className="social-icon-link" href='https://www.linkedin.com/in/kenneth-li-472666171/' rel='noreferrer'  target='_blank' aria-label='linkedin'>
+                        <a className="social-icon-link" href='https://www.linkedin.com/in/kenneth-li-472666171/' rel='noopener noreferrer'  target='_blank' aria-label='linkedin'>
                             <i className="fab fa-linkedin">
                                 <span className="caption">LinkedIn</span>
                             </i>
                         </a>          
-                        <a className="social-icon-link" href='https://github.com/KennethLi5' rel='noreferrer'  target='_blank' aria-label='github'>
+                        <a className="social-icon-link" href='https://github.com/KennethLi5' rel='noopener noreferrer'  target='_blank' aria-label='github'>
                             <i className="fa fa-github">
                                 <span className="caption">Github</span>
                             </i>

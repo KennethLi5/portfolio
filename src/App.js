@@ -1,11 +1,9 @@
 import React from 'react'
 import './App.css';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
-import {withRouter} from 'react-router-dom'
 import Navbar from './components/Navbar'
 import Home from './components/pages/Home'
 import Polly from './components/pages/Polly'
-import { useLocation as location} from 'react-router-dom'
 
 
 

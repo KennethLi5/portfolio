@@ -3,7 +3,6 @@ import React, { useState, useEffect } from 'react'
 import './Navbar.css'
 import { Link as LinkS } from "react-scroll"
 import './pages/Home.js'
-import { useLocation } from 'react-router-dom'
 
 
 
@@ -29,14 +28,6 @@ function Navbar() {
 
     
     window.addEventListener('resize', showButton)
-
-    function ReturnToHome() {
-        const location = useLocation();
-        
-        if (location.pathname != "/") {
-            
-        }
-    }
 
     return (
         <>

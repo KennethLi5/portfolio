@@ -1,4 +1,4 @@
-import React, { useState, useEffect, Component } from 'react'
+import React, { useState } from 'react'
 import '../../App.css'
 import AWS from 'aws-sdk'
 import '../Polly.css'
