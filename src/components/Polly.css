@@ -1,0 +1,35 @@
+.textbox {
+    padding: 4px 5px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    background-color: white;    
+    width: 500px;
+    height:200px;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.textbox:focus {
+    outline:none;
+    border-color:deepskyblue;    
+    border-width: 2px;
+}
+
+.button {
+    border: 1px solid;
+    border-radius: 4px;
+}
+
+.button:active {
+    background: #e5e5e5;
+    -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+       -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+            box-shadow: inset 0px 0px 5px #c1c1c1;
+     outline: none;
+}
+
+
+.button:hover {
+    color:rgb(0, 162, 255);
+    border-color: rgb(0, 162, 255);
+}
