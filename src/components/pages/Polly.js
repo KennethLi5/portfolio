@@ -4,13 +4,12 @@ import AWS from 'aws-sdk'
 import '../Polly.css'
 
 function synthesizeSpeech(data) { // retrieve Amazon Polly audio 
-    const {
-        awsKey,
-        awsSecretKey,
-        awsVoice,
-        awsRegion,
-        awsIdentityPoolId,
-    } = require('../../config2.json');
+    
+    const awsKey = process.env.awsKey;
+    const awsSecretKey = process.env.awsSecretKey;
+    const awsVoice = process.env.awsVoice;
+    const awsRegion = process.env.awsRegion;
+    const awsIdentityPoolId = process.env.awsIdentityPoolId;
 
     AWS.config.region = awsRegion; // Region
     AWS.config.credentials = new AWS.CognitoIdentityCredentials({

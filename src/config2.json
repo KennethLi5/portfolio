@@ -1,7 +1,0 @@
-{
-    "awsKey": "process.env.awsKey",
-    "awsSecretKey": "process.env.awsSecretKey",
-    "awsVoice" : "Brian",
-    "awsRegion" : "us-east-1",
-    "awsIdentityPoolId" : "process.env.awsIdentityPoolId"
-}
