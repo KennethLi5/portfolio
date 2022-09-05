@@ -10,7 +10,7 @@ function synthesizeSpeech(data) { // retrieve Amazon Polly audio
         awsVoice,
         awsRegion,
         awsIdentityPoolId,
-    } = require('../../config.json');
+    } = require('../../config2.json');
 
     AWS.config.region = awsRegion; // Region
     AWS.config.credentials = new AWS.CognitoIdentityCredentials({
