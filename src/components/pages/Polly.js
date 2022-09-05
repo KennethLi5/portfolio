@@ -6,7 +6,7 @@ import '../Polly.css'
 function synthesizeSpeech(data) { // retrieve Amazon Polly audio     
     const { awsKey } = process.env.awsKey;
     const { awsSecretKey } = process.env.awsSecretKey;
-    const { awsVoice } = process.env.awsVoice;
+    const  awsVoice  = process.env.awsVoice;
     const { awsRegion } = process.env.awsRegion;
     const { awsIdentityPoolId } = process.env.awsIdentityPoolId;
 
