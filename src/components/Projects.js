@@ -17,7 +17,7 @@ function Projects() {
                         />                                            
                         <ProjectItem 
                         src="images/polly.jpg"
-                        text="Amazon Polly"
+                        text="Text to Speech (Amazon Polly)"
                         label='JavaScript, React'
                         path='/Polly'
                         />     
