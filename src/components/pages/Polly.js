@@ -12,7 +12,7 @@ function synthesizeSpeech(data) { // retrieve Amazon Polly audio
 
     console.log(awsKey)
     console.log(awsSecretKey)
-    console.log(awsKey)
+    console.log(awsVoice)
     console.log(awsRegion)
     console.log(awsIdentityPoolId)
 
