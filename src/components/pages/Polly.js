@@ -27,7 +27,7 @@ function synthesizeSpeech(data) { // retrieve Amazon Polly audio
     var params = {
         OutputFormat: 'mp3',
         Text: data, 
-        VoiceId: awsVoice, 
+        VoiceId: "Brian", 
     }
 
     const Polly = new AWS.Polly({
