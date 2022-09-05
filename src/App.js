@@ -20,6 +20,7 @@ function App() {
       <Route path='/' exact component= {Home}/>
       <Route path='/VRSub' component={() => {window.location.replace('https://github.com/KennethLi5/VRSub'); return null;}}/>          
       <Route path='/DiscordBot' component={() => {window.location.replace('https://github.com/KennethLi5/discord-tts-bot'); return null;}}/>                     
+      <Route path='/Website' component={() => {window.location.replace('https://github.com/KennethLi5/portfolio'); return null;}}/>                     
       </div>
       </Switch>      
       </Router>

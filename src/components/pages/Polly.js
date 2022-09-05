@@ -10,14 +10,6 @@ function synthesizeSpeech(data) { // retrieve Amazon Polly audio
     const awsRegion = process.env.REACT_APP_awsRegion;
     const awsIdentityPoolId = process.env.REACT_APP_awsIdentityPoolId;
 
-    // const {
-    //     awsKey,
-    //     awsSecretKey,
-    //     awsVoice,
-    //     awsRegion,
-    //     awsIdentityPoolId,
-    // } = require('../../config.json');
-
     AWS.config.region = awsRegion; // Region
     AWS.config.credentials = new AWS.CognitoIdentityCredentials({
         IdentityPoolId: awsIdentityPoolId,

@@ -14,20 +14,25 @@ function Projects() {
                         text="VRSub"
                         label="C#, Unity3D, SteamVR"
                         path='VRSub'
-                        />    
-                        
-                        <ProjectItem 
-                        src="images/discord-logo.jpg"
-                        text="Interactive Discord Music Bot"                        
-                        path='DiscordBot'
-                        label='JavaScript'
-                        />                        
+                        />                                            
                         <ProjectItem 
                         src="images/polly.jpg"
                         text="Amazon Polly"
                         label='JavaScript, React'
                         path='/Polly'
-                        />                                            
+                        />     
+                        <ProjectItem 
+                        src="images/discord-logo.jpg"
+                        text="Interactive Discord Music Bot"                        
+                        path='DiscordBot'
+                        label='JavaScript, NodeJS'
+                        />                                     
+                        <ProjectItem 
+                        src="images/website.jpg"
+                        text="Portfolio website (this one!)"
+                        label='JavaScript, React, HTML, CSS'
+                        path='Website'
+                        />                                                                                         
                     </ul>
                 </div>
             </div>
